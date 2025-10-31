@@ -24,13 +24,5 @@ class TaskApi {
   Future<void> deleteTask(int id) async {
     await client.delete('/todos/$id');
   }
-
-  {
-    "id":"23",
-    "name":"Kiran",
-    "age":"21"
-    {
-      
-    }
-  }
+  
 }
